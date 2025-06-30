@@ -7,7 +7,7 @@
 > 原文链接：[Predicting Infrared Spectra with Message Passing Neural Networks](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00055)
 
 ## 1.数据集
-选用了一个数据集，其中包含8654个不同分子的实验光谱。
+选用了一个[数据集](https://github.com/hybridizedfish/IRwithMPNN_replication/blob/main/IR_database_full.csv.7z)，其中包含8654个不同分子的实验光谱。
 
 
 ## 2.数据处理
