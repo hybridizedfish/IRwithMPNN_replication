@@ -8,8 +8,7 @@
 
 ## 1.数据集
 选用了一个[数据集](https://github.com/hybridizedfish/IRwithMPNN_replication/blob/main/IR_database_full.csv.7z)，其中包含8654个不同分子的实验光谱。
-
-
+<br><\br>
 ## 2.数据处理
 ### 2.1.数据清洗
 
