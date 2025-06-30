@@ -2,7 +2,7 @@
 
 这是厦门大学 **《人工智能化学分析》** 课程作业
 
-由于算力远远不够，所以是原文的mini_air_青春版（
+由于算力远远不够，所以仅在一个很小型的数据集上进行了复现，是原文的mini/air/青春版
 
 > 原文链接：[Predicting Infrared Spectra with Message Passing Neural Networks](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00055)
 
