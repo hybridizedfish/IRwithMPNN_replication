@@ -7,13 +7,13 @@
 > 原文链接：[Predicting Infrared Spectra with Message Passing Neural Networks](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00055)
 
 ## 1.数据集
-- NIST
-- PNNL
-- AIST
-- the Coblentz Society
+选用了一个易获取的数据集，其中包含500个不同分子的实验光谱。
+
+该数据集来自
 
 ## 2.数据处理
 ### 2.1.数据清洗
+
 ### 2.2.光谱归一化
 数据中存在的间隙在训练与预测时不被考虑
 ### 2.3.计算光谱及处理
