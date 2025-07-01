@@ -19,10 +19,10 @@
 
 根据以上条件，运行[数据清洗.py](https://github.com/hybridizedfish/IRwithMPNN_replication/blob/main/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97.py)筛选数据集中符合要求的光谱数据
 
-最终获得6215个实验光谱，存储为[清洗后的数据.csv]()，并将第一列单独存储为[仅SMILES.CSV]()，便于后续计算光谱。
+最终获得6215个实验光谱，存储为[清洗后的数据.csv]()，并将第一列单独存储为[仅SMILES.csv]()，便于后续计算光谱。
 
 ### 2.2.光谱归一化
-对清洗后的数据运行[归一化.py]()，进行归一化处理。将处理好的数据存储为[处理后的数据.csv]()
+对清洗后的数据运行[归一化.py](https://github.com/hybridizedfish/IRwithMPNN_replication/blob/main/%E5%BD%92%E4%B8%80%E5%8C%96.py)，进行归一化处理。将处理好的数据存储为[处理后的数据.csv]()
 
 ### 2.3.计算光谱
 运行[获取分子数据.py]()从PubChem获取清洗后各分子数据
