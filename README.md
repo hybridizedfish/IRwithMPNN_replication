@@ -22,11 +22,12 @@
 最终获得6215个实验光谱，存储为[清洗后的数据.csv]()，并将第一列单独存储为[仅SMILES.csv]()，便于后续计算光谱。
 
 ### 2.2.光谱归一化
-对清洗后的数据运行[归一化.py](https://github.com/hybridizedfish/IRwithMPNN_replication/blob/main/%E5%BD%92%E4%B8%80%E5%8C%96.py)，进行归一化处理。将处理好的数据存储为[处理后的数据.csv]()
+对清洗后的数据运行[归一化.py](https://github.com/hybridizedfish/IRwithMPNN_replication/blob/main/%E5%BD%92%E4%B8%80%E5%8C%96.py)，进行归一化处理。将处理好的数据存储为[归一化的数据.csv]()
 
 ### 2.3.计算光谱
-运行[获取分子数据.py]()从PubChem获取清洗后各分子数据
-并用GFN2-xTB方法计算光谱
+~~访问pubchem太频繁被限制访问了只好~~ 采用将已有数据分割的方法模拟原文献的SMILES扩充。
+
+将已有数据分割为4215条、2000条，并利用后2000条用GFN2-xTB方法计算光谱用于预训练。
 
 ### 2.4.峰形加宽
 
